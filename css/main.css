@@ -486,3 +486,29 @@ body {
   color: #fff;
   text-align: center;
 }
+
+.menu-img {
+  width: 90%;
+}
+
+/* --------------Адаптація сайту---------- */
+@media (max-widht: 1500px) {
+  .galery-content {
+    display: block;
+  }
+  .img-gal,
+  .galery-down,
+  .galery-right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-gal {
+    margin-top: 20px;
+  }
+
+  .galery-left {
+    margin-right: 0;
+  }
+}
